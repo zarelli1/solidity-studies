@@ -11,6 +11,7 @@ contract CofrePessoal {
         require(msg.value > 0, "Valor invalido");
         saldos[msg.sender] += msg.value;
         emit DepositoRealizado(msg.sender, msg.value);
+// 2 PC - E.F + E.L
     }
 
     function sacar(uint256 _valor) public {
