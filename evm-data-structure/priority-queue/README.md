@@ -83,3 +83,6 @@ A busca linear percorre o array inteiro a cada remoção. Em filas grandes na Bl
 - **DAOs** — fila de execução de propostas, onde correções de segurança furam a fila de votações comuns.
 - **GameFi** — processamento de ações em massa, priorizando jogadores ou transações críticas.
 - **Protocolos de mensagens** — entrega ordenada por urgência em sistemas de comunicação descentralizados.
+
+<img width="1440" height="1128" alt="image" src="https://github.com/user-attachments/assets/51b56db5-6cf8-4181-894c-4cf25f6d662d" />
+
