@@ -50,7 +50,7 @@ contract FilaPrioridade {
         return atendido;
     }
 
-//A BUSCA BINÁRIA 
+//A BUSCA BINÁRIA 10=4, 20=5, 40=6, 100=7, 400=9, 1000=10, 1MILHÃO=20
     
     function buscarPorGravidade(uint8 _alvo) external view returns (bool encontrado, uint256 posicao, address cliente) {
         if (fila.length == 0) return (false, 0, address(0));
